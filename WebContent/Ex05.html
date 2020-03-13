@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	div {/* 블럭라벨 */
+		width: auto; /* 가로 너비 */
+		height: 100px; /* 세로 너비 */
+		background: tomato; /* 배경색지정 */
+	}
+	
+	span {/*인라인라벨 : 텍스트 잡힌부분만 잡힘.  */
+		width: auto;
+		height: 100px;/* 인라인 라벨일때~~~는~~~~ 영역만 설정되기 때문에 width,height는 별의미없음 */
+		background: green;
+	}
+	
+	
+</style>
+</head>
+<body>
+	<!-- div 태그는 특별한 의미가 없는 태그.
+				주로 구분용도로 많이 사용됨. (묶어서 사용할 때 사용)
+	-->
+	
+	<!--  1. 블록 요소
+						- 주요 태그 : div태그, hn태그, p태그
+						- 사용 가능한 최대 가로 너비를 사용한다.
+						- 크기를 지정할 수 있음.
+						- width : 100%; height: 0%;  로 시작.  => default 설정 값
+						- 수직으로 쌓인다.
+						- margin, padding의 속성에 위, 아래, 좌, 우 사용이 가능하다.
+						- 레이아웃을 설정하는 용도로 사용이 된다.
+			2. 인라인 요소
+			 			- 주요 태그: span 태그, img 태그
+			 			- 필요한 만큼만의 너비를 사용한다. 
+			 			- 크기를 지정할 수 없다.
+			 			- width : 0%, height: 0%; 로 시작.
+			 			- 수평으로 쌓인다.
+			 			- margin, padding의 속성에 위, 아래, 좌, 우 사용이 불가능하다.
+			 			- 텍스트를 설정하는 용도로 사용이 된다.
+	
+	
+	-->
+
+	<div></div>
+	<br />
+	<span>텍스트~~~으으으~~으~으~ㅡㅇ~</span>
+</body>
+</html>
